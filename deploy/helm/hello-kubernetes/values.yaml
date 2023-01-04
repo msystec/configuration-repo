@@ -12,7 +12,7 @@ deployment:
   replicaCount: 3
   container:
     image:
-      repository: "paulbouwer/hello-kubernetes"
+      repository: "267767410086.dkr.ecr.us-east-1.amazonaws.com/jenkins_pipeline"
       tag: "10" # uses chart appVersion if not provided
       pullPolicy: IfNotPresent
     port: 8080
